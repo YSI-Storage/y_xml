@@ -62,14 +62,14 @@ Changelog:
 </remarks>
 \**--------------------------------------------------------------------------**/
 
-#include "..\YSI-Internal\y_version"
+#include "..\YSI_Internal\y_version"
 
 #include <a_samp>
 
-#include "..\YSI-Core\y_debug"
-#include "..\YSI-Core\y_utils"
+#include "..\YSI_Core\y_debug"
+#include "..\YSI_Core\y_utils"
 
-#include "..\YSI-Internal\y_natives"
+#include "..\YSI_Internal\y_natives"
 
 #if !defined MAX_XML_FILES
 	#define MAX_XML_FILES               (5)
